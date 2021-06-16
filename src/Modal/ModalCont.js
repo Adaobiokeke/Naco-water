@@ -33,8 +33,10 @@ const ModalCont = () => {
                     <p>Price:{content.Price}</p>
                     <p>Size:{content.size}</p>
                     <p>{content.content}</p>
+                    <p> Please click on <em><q>place order</q></em> below to finalize order.</p>
+                    <a href='https://form.jotform.com/211665272491053' target="_blank">Place Order</a>
                     <div className="contact"> 
-                    <p> For further engagements, please click on the Whatsapp Icon ---</p>
+                    <p>To chat with an agent, plase click on the Whatsapp Icon</p>
                         <a href='https://wa.me/2348132293230'className='whatsapp_float' target='_blank'><i class='fa fa-whatsapp whatsapp-icon'></i></a>
                     </div>
                     <div className='modalbtn1'>
